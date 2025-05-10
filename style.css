@@ -1,0 +1,51 @@
+.titulo {
+    color: purple;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  body {
+    background: linear-gradient(to bottom, grey);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  /* Import the gamer-style font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.titulo {
+  color: purple;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive; /* Apply the gamer font */
+}
+
+body {
+  background: linear-gradient(to bottom, grey);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamer Style Page</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- Title with the gamer style -->
+  <h1 class="titulo">Welcome to the Gamer Zone</h1>
+</body>
+</html>
